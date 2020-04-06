@@ -1,4 +1,6 @@
-# learn-spring 学习笔记
+##学习笔记
 
-[#Spring Boot](spring-boot/笔记/SpringBoot学习笔记.md)
+[#Spring Boot](spring-boot/note/README.md)
+
+[#Java IO / Netty](netty/note/README.md)
 
