@@ -1,3 +1,4 @@
 rootProject.name = 'goodgoodstudy'
 include 'spring-boot'
 include 'netty'
+include 'zookeeper'
