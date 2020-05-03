@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.fenxiangz.learn'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
+

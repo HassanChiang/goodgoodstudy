@@ -1,0 +1,8 @@
+rootProject.name = 'goodgoodstudy'
+
+include 'java-juc'
+include 'learn-gradle'
+include 'netty'
+include 'spring-boot'
+include 'zookeeper'
+
