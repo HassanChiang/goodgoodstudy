@@ -7,6 +7,7 @@ public class TestVolatile {
         thread.start();
         while (true) {
             //volatile 保证线程对 flag filed 的可见性
+            // synchronized (threadDemo) 也可以实现，但是同步影响性能
             if (threadDemo.isFlag()) {
                 System.out.println("主线程读取到的flag = " + threadDemo.isFlag());
                 break;
