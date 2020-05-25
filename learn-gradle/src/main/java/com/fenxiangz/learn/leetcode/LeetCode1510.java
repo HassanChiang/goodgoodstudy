@@ -51,6 +51,7 @@ class Solution {
 
 /**
  * 思路不变，通过位运算实现，提高执行效率
+ * https://leetcode-cn.com/problems/reverse-bits-lcci/solution/fan-zhuan-shu-wei-20200525-by-hassan91/
  */
 class Solution2 {
     public int reverseBits(int num) {
