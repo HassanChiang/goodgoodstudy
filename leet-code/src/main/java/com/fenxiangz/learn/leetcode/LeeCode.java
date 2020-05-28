@@ -2,7 +2,7 @@ package com.fenxiangz.learn.leetcode;
 
 import com.alibaba.fastjson.JSON;
 
-public class ForCopy {
+public class LeeCode {
     public static void main(String[] args) {
         int result = new Solution2().method();
         System.out.printf("result:" + JSON.toJSONString(result));
