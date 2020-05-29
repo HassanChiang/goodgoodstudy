@@ -2,17 +2,13 @@ package com.fenxiangz.learn.leetcode;
 
 import com.alibaba.fastjson.JSON;
 
-public class LeeCode {
+public class LeetCode {
     public static void main(String[] args) {
-        int result = new Solution2().method();
+        int result = new Solution().method();
         System.out.printf("result:" + JSON.toJSONString(result));
     }
 
-    private static class Solution1 {
-
-    }
-
-    private static class Solution2 {
+    private static class Solution {
         public int method() {
             return 0;
         }
