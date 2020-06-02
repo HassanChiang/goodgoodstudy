@@ -25,7 +25,7 @@ import java.util.Set;
  * 链接：https://leetcode-cn.com/problems/find-the-duplicate-number
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class LeetCode00287 {
+public class LeetCode0287 {
     public static void main(String[] args) {
         int result = new Solution().findDuplicate(new int[]{1, 3, 4, 2, 2});
         System.out.printf("result:" + result);

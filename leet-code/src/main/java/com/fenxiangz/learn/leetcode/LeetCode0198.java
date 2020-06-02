@@ -24,7 +24,7 @@ import com.alibaba.fastjson.JSON;
  * 链接：https://leetcode-cn.com/problems/house-robber
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class LeetCode00198 {
+public class LeetCode0198 {
     public static void main(String[] args) {
         int result = new Solution().rob(new int[]{1,2,3,1});
         System.out.printf("result:" + JSON.toJSONString(result));

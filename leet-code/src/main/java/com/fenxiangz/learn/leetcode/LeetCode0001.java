@@ -22,7 +22,7 @@ import java.util.Map;
  * 链接：https://leetcode-cn.com/problems/two-sum
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class LeetCode00001 {
+public class LeetCode0001 {
     public static void main(String[] args) {
         int[] result = new Solution2().twoSum(new int[]{2, 7, 11, 15}, 9);
         System.out.printf("result:" + JSON.toJSON(result));

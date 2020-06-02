@@ -21,7 +21,7 @@ import com.alibaba.fastjson.JSON;
  * 链接：https://leetcode-cn.com/problems/decode-string
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class LeetCode00394 {
+public class LeetCode0394 {
     public static void main(String[] args) {
         String result = new Solution().decodeString("23[a]56[b]89[c]");
         System.out.printf("result: " + JSON.toJSONString(result));
