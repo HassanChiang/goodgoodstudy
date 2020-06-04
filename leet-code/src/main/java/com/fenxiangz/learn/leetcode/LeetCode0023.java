@@ -31,16 +31,9 @@ public class LeetCode0023 {
             ListNode[] lists = new ListNode[]{n1, n2};
 
             ListNode result = new Solution().mergeKLists(lists);
-            printResult(result);
+            result.print();
         } catch (Exception e) {
             e.printStackTrace();
-        }
-    }
-
-    private static void printResult(ListNode result) {
-        while (result != null) {
-            System.out.print(" -> " + result.val);
-            result = result.next;
         }
     }
 
@@ -88,15 +81,6 @@ public class LeetCode0023 {
                 }
             }
             return lists[0];
-        }
-    }
-
-    private static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
         }
     }
 }
