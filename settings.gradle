@@ -6,4 +6,5 @@ include 'netty'
 include 'spring-boot'
 include 'zookeeper'
 include 'leet-code'
+include 'kafka'
 
