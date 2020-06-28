@@ -1,0 +1,10 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.fenxiangz.learn.springboot.learn2.context.init.AfterHelloWorldApplicationContextInitializer,\
+com.fenxiangz.learn.springboot.learn2.context.init.HelloWorldApplicationContextInitializer
+
+org.springframework.context.ApplicationListener=\
+com.fenxiangz.learn.springboot.learn2.context.listener.AfterHelloApplicationListener,\
+com.fenxiangz.learn.springboot.learn2.context.listener.HelloApplicationListener
+
+org.springframework.boot.SpringApplicationRunListener=\
+com.fenxiangz.learn.springboot.learn2.boot.listener.HelloWorldSpringApplicationRunListener
