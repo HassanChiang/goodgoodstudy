@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'war'
+    id 'org.springframework.boot' version '2.2.1.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+}
+
+group 'com.fenxiangz.learn'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    providedCompile 'org.springframework.boot:spring-boot-starter-tomcat'
+    providedCompile 'org.apache.tomcat.embed:tomcat-embed-jasper'
+    compile group: 'javax.servlet', name: 'jstl'
+}

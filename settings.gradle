@@ -7,4 +7,5 @@ include 'spring-boot'
 include 'zookeeper'
 include 'leet-code'
 include 'kafka'
+include 'spring-boot-webmvc'
 
