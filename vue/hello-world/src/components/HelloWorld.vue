@@ -49,7 +49,6 @@
                 pSeen: true,
                 pSeen2: 6,
                 fenxiangz: 'https://www.fenxiangz.com',
-
             }
         },
         created() {
