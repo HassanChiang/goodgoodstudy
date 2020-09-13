@@ -1,5 +1,6 @@
 package com.fenxiangz.learn.springcloud.eureka.client;
 
+import com.alibaba.fastjson.JSON;
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,11 +20,11 @@ public class EurekaClientApplication {
     @Autowired
     private EurekaClient discoveryClient;
 
-    @RequestMapping("/")
-    public String home() {
+    @RequestMapping("/Eureka_Client1")
+    public String test() {
         InstanceInfo instance = discoveryClient.getNextServerFromEureka(
-                "STORES", false);
-        return instance.getHomePageUrl();
+                "EUREKA_CLIENT1", false);
+        return JSON.toJSONString(instance);
     }
 
 
