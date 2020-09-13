@@ -1,6 +1,5 @@
 rootProject.name = 'goodgoodstudy'
 
-include 'learn-gradle'
 include 'java-juc'
 include 'netty'
 include 'spring-boot'
