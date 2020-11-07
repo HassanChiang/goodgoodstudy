@@ -6,8 +6,8 @@ import com.netflix.discovery.EurekaClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.context.ApplicationContext;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,7 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class EurekaClientApplication {
 
-
+    @Autowired
+    private ApplicationContext applicationContext;
     @Autowired
     private EurekaClient discoveryClient;
 
