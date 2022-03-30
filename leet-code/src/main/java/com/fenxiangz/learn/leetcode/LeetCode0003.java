@@ -43,7 +43,7 @@ public class LeetCode0003 {
     private static class Solution {
         public int lengthOfLongestSubstring(String s) {
             int n = s.length();
-            List<Integer> tmpArr = new ArrayList();
+            List<Integer> tmpArr = new ArrayList<>();
             Integer[] maxArr = new Integer[0];
             for (int i = 0; i < n; i++) {
                 int x = (int)s.charAt(i);
