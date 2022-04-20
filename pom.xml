@@ -23,6 +23,7 @@
         <module>spring-boot</module>
         <module>spring-boot-webmvc</module>
         <module>zookeeper</module>
+        <module>jmh-test</module>
     </modules>
 
     <properties>

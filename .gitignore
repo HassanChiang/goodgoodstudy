@@ -25,6 +25,7 @@ gradle/wrapper
 *.iml
 /.idea/
 /out/
+/*/.idea/
 
 # Eclipse
 .factorypath
@@ -60,3 +61,4 @@ fabric.properties
 hs_err_pid*
 
 luceneIndex
+
